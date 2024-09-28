@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home - Automatic Expense Tracker{% endblock %}
+{% block css %}<link rel='stylesheet' href='{% static "assets/css/index.css" %}'>{% endblock %}
+{% block content %}
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Track your expenses effortlessly 💼</h1>
+            <p class="hero-desc">Automate the way you handle your expenses.</p>
+            <div class="cta-buttons">
+                <a href="#" class="cta-button">Start Tracking Now</a>
+                <a href="#" class="cta-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Expense Tracker{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    {% block css %}{% endblock %}
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="{% static 'assets/img/logo.png' %}" alt="Expense Tracker Logo"> <!-- Use your logo here -->
+            <span>ExpenseTracker</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      
+      <ul class="nav-links" id="nav-links">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Charts</a></li>
+          <li><a href="#">Reports</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Donate</a></li>
+      </ul>
+        <a href="#" class="download-btn">Download</a>
+    </nav>
+
+    <!-- Main content block -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+<script src="{% static "assets/js/script.js" %}"></script>
+{% block js %}{% endblock %}
+</body>
+</html>
