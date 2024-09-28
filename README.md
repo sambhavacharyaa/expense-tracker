@@ -39,11 +39,11 @@ This web application allows users to automatically track their expenses by sendi
 4. Activate the virtual environment:
    - On Windows:
      ```bash
-     venv\Scripts\activate
+     .venv\Scripts\activate
      ```
    - On macOS/Linux:
      ```bash
-     source venv/bin/activate
+     source .venv/bin/activate
      ```
 
 5. Install the required packages:
