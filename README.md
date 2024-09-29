@@ -23,7 +23,7 @@ This web application allows users to automatically track their expenses by sendi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/sambhavacharyaa/expense-tracker.git
    ```
    
 2. Navigate to the project folder:
