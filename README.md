@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Automatic Expense Tracker
 
 Add a little magic to your expenses! ✨  
