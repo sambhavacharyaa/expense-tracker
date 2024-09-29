@@ -28,12 +28,12 @@ This web application allows users to automatically track their expenses by sendi
    
 2. Navigate to the project folder:
    ```bash
-   cd your-repo-name
+   cd expense-tracker
    ```
 
 3. Create a virtual environment:
    ```bash
-   python -m venv venv
+   python -m venv .venv
    ```
 
 4. Activate the virtual environment:
