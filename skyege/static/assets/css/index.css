@@ -76,9 +76,9 @@
   }
   
   .app-image {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
     border-radius: 10px;
   }
   
@@ -94,6 +94,13 @@
         flex-direction: column;
     }
     .app-image {
-        width: 100%;
+        max-width: 94%;
+        height: auto;
+        margin: auto 3rem;
+        
+      }
+      .cta-button, .cta-secondary{
+        width: 80%;
+        margin: auto;
       }
 }
