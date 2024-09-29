@@ -28,7 +28,7 @@ This web application allows users to automatically track their expenses by sendi
    
 2. Navigate to the project folder:
    ```bash
-   cd expense-tracker
+   cd skyege
    ```
 
 3. Create a virtual environment:
