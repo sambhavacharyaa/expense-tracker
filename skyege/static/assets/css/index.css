@@ -55,6 +55,35 @@
     background-color: #0056b3;
     color: white;
 }
+.hero-section {
+    padding: 50px 0;
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .app-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+
+  
 
 @media (max-width: 768px) {
     .hero-title {
@@ -64,4 +93,7 @@
     .cta-buttons {
         flex-direction: column;
     }
+    .app-image {
+        width: 100%;
+      }
 }
