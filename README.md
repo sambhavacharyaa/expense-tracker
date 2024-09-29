@@ -39,11 +39,11 @@ This web application allows users to automatically track their expenses by sendi
 4. Activate the virtual environment:
    - On Windows:
      ```bash
-     venv\Scripts\activate
+     .venv\Scripts\activate
      ```
    - On macOS/Linux:
      ```bash
-     source venv/bin/activate
+     source .venv/bin/activate
      ```
 
 5. Install the required packages:
@@ -72,10 +72,7 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ```
 
-### Customization
-- Replace `yourusername` and `your-repo-name` with your GitHub username and the name of your repository.
-- Feel free to add any additional features, installation steps, or usage details that are relevant to your project.
