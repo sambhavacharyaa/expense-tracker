@@ -74,5 +74,5 @@ If you would like to contribute to this project, please fork the repository and 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-```
 
+## Thank you for reading!
